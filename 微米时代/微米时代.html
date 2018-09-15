@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <title>微米时代</title>
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.css">
+    <!--自己写的文件默认放在最下面-->
+    <link rel="stylesheet" href="css/weimi.css">
+</head>
+<body>
+<!--头部区域-->
+<header id="header">
+    <!--<div class="topbar hidden-sm hidden-xs">-->
+    <nav class="topbar navbar navbar-itcast navbar-static-top" data-spy="affix" data-offset-top="60" data-offset-bottom="200">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header ">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">
+                    <img class="hidden-sm hidden-md" src="images/logo.png" alt="">
+                </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li><a href="#">首页 <span class="sr-only">(current)</span></a></li>
+                    <li><a href="#">微米客</a></li>
+                    <li><a href="#">客户案例</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">服务项目 <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">林博</a></li>
+                            <li><a href="#">真是</a></li>
+                            <li><a href="#">太特么</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">帅</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">了！！！</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+</header>
+<!--/头部区域-->
+<!--轮播图-->
+<section id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+    <!-- 指示器，小圆点 -->
+    <ol class="carousel-indicators">
+        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+    </ol>
+
+    <!-- 轮播项 -->
+    <div class="carousel-inner" role="listbox">
+        <div class="item active" data-image-lg="img/slide_01_2000x410.jpg" data-image-xs="img/slide_01_640x340.jpg">
+
+        </div>
+        <div class="item" data-image-lg="img/slide_02_2000x410.jpg" data-image-xs="img/slide_02_640x340.jpg">
+        </div>
+        <div class="item" data-image-lg="img/slide_03_2000x410.jpg" data-image-xs="img/slide_03_640x340.jpg">
+        </div>
+        <div class="item" data-image-lg="img/slide_04_2000x410.jpg" data-image-xs="img/slide_04_640x340.jpg">
+        </div>
+    </div>
+</section>
+<!--/轮播图-->
+<!--新闻列表-->
+<section id="news">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-3 help ">
+                <ul class="nav nav-pills nav-stacked">
+                    <li role="presentation" class="active">
+                        <a href="#news01" data-toggle="tab" data-title="关于我们">关于我们</a>
+                    </li>
+                    <li role="presentation">
+                        <a href="#news02" data-toggle="tab" data-title="联系我们">联系我们</a>
+                    </li>
+                    <li role="presentation">
+                        <a href="#news03" data-toggle="tab" data-title="代理合作">代理合作</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-sm-9 help-content">
+                <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane fade in active" id="news01">
+                        <ul>
+                            <li>林博发财了</li>
+                            <li>林博发财了</li>
+                            <li>林博发财了</li>
+                            <li>林博发财了</li>
+                            <li>林博发财了</li>
+                            <li>林博发财了</li>
+                            <li>林博发财了</li>
+                            <li>林博发财了</li>
+                            <li>林博发财了</li>
+                            <li>林博发财了</li>
+                        </ul>
+                    </div>
+                    <div role="tabpanel" class="tab-pane fade" id="news02">
+                        <div class="col-sm-3 clearfix">
+                                <ul>
+                                        <li role="presentation" class="active">
+                                            <a href="#" data-toggle="tab" data-title="电话">
+                                                <span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>
+                                            </a>
+                                        </li>
+                                        <li role="presentation">
+                                            <a href="#news04" data-toggle="tab" data-title="QQ">
+                                                <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
+                                            </a>
+                                        </li>
+                                        <li role="presentation">
+                                            <a href="#news05" data-toggle="tab" data-title="邮箱">
+                                                <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>
+                                            </a>
+                                        </li>
+                                        <li role="presentation">
+                                            <a href="#news06" data-toggle="tab" data-title="二维码">
+                                                <span class="glyphicon glyphicon-th" aria-hidden="true"></span>
+                                            </a>
+                                        </li>
+                                        <li role="presentation">
+                                            <a href="#news07" data-toggle="tab" data-title="地址">
+                                                <span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span>
+                                            </a>
+                                        </li>
+                                </ul>
+                        </div>
+                        <div class="col-sm-9 ">
+                            <div class="tab-content">
+                                <div role="tabpane1" class="tab-pane fade in " id="news04">
+                                    <h3>公司地址</h3>
+                                    <p>深圳市南山区科技园科技一路桑达科技大厦14楼移盟产业基地</p>
+                                </div>
+                                <div role="tabpane1" class="tab-pane fade in " id="news05">
+                                    <h3>公司地址</h3>
+                                    <p>深圳市南山区科技园科技一路桑达科技大厦14楼移盟产业基地</p>
+                                </div>
+                                <div role="tabpane1" class="tab-pane fade in " id="news06">
+                                    <h3>公司地址</h3>
+                                    <p>深圳市南山区科技园科技一路桑达科技大厦14楼移盟产业基地</p>
+                                </div>
+                                <div role="tabpane1" class="tab-pane fade in " id="news07">
+                                    <h3>公司地址</h3>
+                                    <p>深圳市南山区科技园科技一路桑达科技大厦14楼移盟产业基地</p>
+                                    <img src="images/map.png" alt="map">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div role="tabpanel" class="tab-pane fade" id="news03">
+                        <ul>
+                        <li>林博发财了</li>
+                        <li>林博发财了</li>
+                        <li>林博发财了</li>
+                        <li>林博发财了</li>
+                        <li>林博发财了</li>
+                        <li>林博发财了</li>
+                        <li>林博发财了</li>
+                        <li>林博发财了</li>
+                        <li>林博发财了</li>
+                        <li>林博发财了</li>
+                    </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--/新闻列表-->
+<!--脚注区域-->
+<footer id="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-1 col-sm-6 col-xs-4 erweima"><img src="images/erweima.png" alt=""></div>
+            <div class="col-md-6 col-sm-12 hidden-xs hidden-sm footer-menu ">
+                <ul>
+                    <li><a href="#">微米时代</a></li>
+                    <li><a href="#">关于我们</a></li>
+                    <li><a href="#">联系我们</a></li>
+                    <li><a href="#">代理合作</a></li>
+                    <li><a href="#">微米视角</a></li>
+                    <li>
+                        <a href="#" class="glass">
+                            <span class="glyphicon glyphicon-sunglasses"></span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-2 col-sm-6  hidden-xs logo">
+                <a href="#"><img src="images/logo.png" alt=""></a>
+            </div>
+            <div class="col-xs-8 hidden-lg hidden-sm hidden-md wenzi">
+                <h4>联系我们</h4>
+                <p>电话：112132132</p>
+                <p>地址：桂五号楼</p>
+                <p>邮箱：112132132@qq.com</p>
+            </div>
+        </div>
+    </div>
+</footer>
+<!--脚注区域-->
+<!--悬浮盒子-->
+<div id="box">
+    <div><a href="#"><span class="glyphicon glyphicon-earphone"></span></a></div>
+    <div><a href="#"><span class="glyphicon glyphicon-user"></span></a></div>
+    <div><a href="#"><span class="glyphicon glyphicon-cloud"></span></a></div>
+    <div><a href="#"><span class="glyphicon glyphicon-th"></span></a></div>
+</div>
+<!--/悬浮盒子-->
+<script src="lib/jquery/jquery.js"></script>
+<script src="lib/bootstrap/js/bootstrap.js"></script>
+<script src="js/weimi.js"></script>
+</body>
+</html>

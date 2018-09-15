@@ -1,0 +1,163 @@
+@charset "UTF-8";
+.banner604{
+    position: relative;
+}
+.banner604 a{
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 604px;
+    background:url(../images/banner.jpg) no-repeat top center;
+}
+.main{
+    position: relative;/*因为.banner604有相对定位所以兄弟也要加，提高层级*/
+}
+.slider{
+    width: 730px;
+    height: 453px;
+    background-color: pink;
+    margin:12px 0 0 220px;
+    float: left;
+    position: relative;
+}
+.slider ul{
+    position: absolute;
+    bottom:8px;
+    left:50%;
+    margin-left:-66px;
+}
+.slider ul li {
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    background-color: #3e3e3e;
+    float: left;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    margin: 0 2px;
+}
+.slider ul li.li-color{
+    background-color: #b61b1f;
+}
+.arrow-l, .arrow-r{
+    position: absolute;
+    width: 28px;
+    height: 62px;
+    top:50%;
+    margin-top: -31px;
+    background: rgba(0,0,0,.3);
+    line-height: 62px;
+    text-align: center;
+    font:500 18px/62px "宋体";
+    color:#fff;
+}
+.arrow-l {
+    left: 0;
+}
+.arrow-r{
+    right: 0;
+}
+.news{
+    width: 248px;
+    height: 451px;
+    border:1px solid #e4e4e4;
+    float: right;
+    margin-top:12px;
+}
+.jd-news{
+    height: 200px;
+    border-bottom:1px dashed #e4e4e4;
+}
+.jd-news .dt, .lifeservi .dt{
+    height: 43px;
+    border-bottom:1px dotted #E8E8E7;
+    line-height:43px;
+}
+.jd-news .dt h3,.lifeservi .dt h3{
+    float: left;
+    font:14px/43px "微软雅黑";
+    margin-left:15px;
+    color:#666666;
+}
+.jd-news .dt a{
+    float: right;
+    font:13px/43px "宋体";
+    margin-right: 15px;
+}
+.jd-news .dd ul{
+    padding:8px 0 0 15px;
+}
+.jd-news .dd li{
+    line-height:28px;
+}
+.jd-news .dd li span{
+    font-weight:700;
+    margin-right:5px;
+}
+.lifeservi{
+    height: 251px;
+    overflow: hidden;
+    width: 248px;/*防止低版本浏览器排版错误*/
+}
+.lifeservi .dd ul{
+    width: 252px;/*加宽是因为
+                   父亲盒子包不住子盒子，所以在给子盒子
+                   加个父亲，给这个父亲足够的宽，这样可以使得子盒子能并排。*/
+}
+.lifeservi .dd li{
+    width: 62px;
+    height: 70px;
+    border: 1px solid #e4e4e4;
+    border-top:0;
+    float: left;
+    margin-left: -1px;
+}
+.lifeservi li a{
+    display: block;
+    height: 70px;
+    text-align: center;
+    padding-top:44px;
+    position: relative;
+}
+.lifeservi li a i{
+    position: absolute;
+    top: 12px;
+    left: 18px;
+    width: 25px;
+    height: 25px;
+    background:url(../images/icon_lifeserv.png) no-repeat right top;
+}
+.lifeservi .dd ul li:nth-child(2) a i{
+    background-position: right -25px;
+}
+.lifeservi .dd ul li:nth-child(3) a i{
+    background-position: right -50px;
+}
+.lifeservi .dd ul li:nth-child(3) a{
+    background: url(../images/song.png) no-repeat right top;
+}
+
+/*11活动*/
+.todays{
+    position: relative;
+}
+.night{
+    margin:10px 0 28px 0;
+}
+.night-l{
+    float: left;
+}
+.night-r{
+     float: right;
+     width: 1000px;
+     height: 160px;
+ }
+.night-r ul{
+    width: 500%;
+}
+.night-r li{
+    float: left;
+    margin-right: 1px;
+}

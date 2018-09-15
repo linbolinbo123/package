@@ -1,0 +1,28 @@
+#introduce>.container>.container>.row>div{
+    padding: 50px 10px 30px 20px;
+}
+
+#introduce>.container>.container>.row>div .pay{
+    margin-top: 20px;
+    color: #ffea00;
+}
+
+#introduce>.container>.container>.row>div .button{
+    margin-top:30px;
+}
+
+#introduce>.container>.container>.row>div .btn-default{
+    color: black;
+}
+
+#introduce>.container>.container>.row>div .btn-default:hover{
+    color: #ffea00;
+    background-color: transparent;
+    border-color: #ffea00;
+}
+
+#introduce>.container>.container>.row>div .btn-default:focus{
+    color: #ffea00;
+    background-color: transparent;
+    border-color: #ffea00;
+}

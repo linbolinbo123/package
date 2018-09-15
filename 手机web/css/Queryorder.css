@@ -1,0 +1,28 @@
+#introduce>.container>.container>.row>div{
+    padding: 50px 0;
+}
+#introduce>.container>.container>.row>div .hr{
+    margin: 10px 0;
+    color: #5d5d5d;
+    background-color: #5d5d5d;
+    height: 1px;
+}
+
+
+#introduce>.container>.container>.row>div .zhuang{
+    margin-bottom: 10px;
+}
+
+#introduce>.container>.container>.row>div .zhuangtai{
+    color: #ffea00;
+
+}
+
+
+#introduce>.container>.container>.row>div .wancheng{
+    color: #00CC00;
+}
+
+#introduce>.container>.container>.row>div input{
+    width: 50%;
+}

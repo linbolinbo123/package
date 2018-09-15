@@ -1,0 +1,368 @@
+body{
+    font-family: "Helvetica Neue", Helvetica, Microsoft Yahei, Hiragino Sans GB, WenQuanYi Micro Hei, sans-serif;
+}
+a{
+    transition: all 0.3s;
+}
+/*头部导航条样式*/
+#header .navbar-itcast{
+    margin-bottom: 0;
+}
+#header .topbar{
+    background-color: #fff;
+    width: 100%;
+    top: 0;
+    height: 96px;
+}
+#header .topbar .navbar-header .navbar-brand{
+
+}
+#header .topbar .navbar-header .navbar-brand img{
+    display: inline-block;
+}
+@media (max-width: 460px){
+    #header .topbar .navbar-header .navbar-brand img{
+        width: 153px;
+        height: 20px;
+    }
+}
+/*轮播图*/
+#carousel-example-generic{
+
+}
+
+#carousel-example-generic>.carousel-inner>.item{
+    background-repeat:no-repeat;
+    background-position:center center;
+    background-size:cover;
+}
+
+@media (min-width: 768px) {
+    #carousel-example-generic>.carousel-inner>.item{
+        height: 410px;
+    }
+}
+#carousel-example-generic>.carousel-inner>.item>img{
+    width: 100%;
+}
+
+
+/*新闻版块*/
+#news{
+    padding: 50px 0 150px 0;
+    background-color: #f5f5f5;
+}
+#news ul li{
+    list-style: none;
+}
+#news>.container>.row>.help{
+}
+#news>.container>.row>.help a{
+    height: 98px;
+    width: 184px;
+    color: #333;
+    background-color: #e5e5e5;
+    transition: all 0.3s;
+    text-align: center;
+    line-height: 78px;
+    font-size: 19px;
+}
+#news>.container>.row>.help a:hover,#news>.container>.row>.help a:focus{
+    color: #fff;
+    background-color: #44b549;
+}
+@media (max-width:768px) {
+    #news .nav-stacked>li{
+        float: left;
+        margin-right:20px;
+    }
+    #news>.container>.row>.help{
+        margin-bottom: 10px;
+    }
+}
+@media (max-width:640px) {
+    #news .nav-stacked>li{
+        width: 100%;
+        margin: 0;
+    }
+    #news .nav-stacked>li a{
+        width: 100% !important;
+    }
+    #news>.container>.row>.help{
+        margin-bottom: 10px;
+    }
+}
+
+#news>.container>.row>.help-content #news02 a{
+    display: block;
+    width: 50px;
+    height: 104px;
+    font-size: 50px;
+    color: #44b549;
+}
+@media (max-width:768px) {
+    #news>.container>.row>.help-content #news02 ul li{
+        float: left;
+        margin-right:52px;
+    }
+}
+@media (max-width:640px) {
+    #news>.container>.row>.help-content #news02 ul li{
+        float: left;
+        margin-right:20px;
+    }
+    #news>.container>.row>.help-content #news02 ul li a{
+        font-size: 30px;
+        float: left;
+        margin-right:5px;
+        width: 30px;
+        height: 70px;
+    }
+}
+@media (max-width: 1400px){
+    #news07 img{
+        width: 90%;
+        height: 90%;
+    }
+}
+/*@media (max-width: 415px){
+    #news07 img{
+        width: 90%;
+        height: 90%;
+    }
+}*/
+
+
+/*底部区域*/
+#footer{
+    height: 125px;
+    background-color: #333;
+}
+#footer .erweima{
+    line-height: 125px;
+}
+#footer .footer-menu ul li{
+    line-height: 75px;
+    float: left;
+}
+#footer .footer-menu ul li a{
+    display: inline-block;
+    width: 85px;
+    height: 25px;
+    border-right: 1px solid #7f7f7f;
+    color: #7f7f7f;
+    text-align: center;
+    line-height: 25px;
+    transition: all 0.3s;
+    font-size: 15px;
+}
+#footer .footer-menu ul li a.glass{
+    font-size: 18px;
+    border: 0;
+}
+#footer .footer-menu ul li a:hover,#footer .footer-menu ul li a:focus{
+    text-decoration: none;
+    color: white;
+
+}
+
+#footer .logo{
+    line-height: 125px;
+}
+
+#footer .wenzi{
+    color: white;
+    text-align: center;
+}
+#footer .wenzi h4{
+    margin-top:10px;
+}
+
+/*悬浮盒子*/
+#box{
+    position: fixed;
+    right: 0;
+    top: 50%;
+    margin-height:-130px;
+    width:65px;
+}
+#box div{
+    width: 64px;
+    height: 64px;
+    border-bottom: 1px solid #fff;
+    background-color: #e5e5e5;
+}
+#box div a{
+    display: block;
+    line-height: 64px;
+    text-align: center;
+    font-size: 30px;
+    color: #44b549;
+    transition: all 0.3s;
+}
+#box div a:hover{
+    color: #fff;
+    background-color: #44b549;
+}
+    /*bootstrap扩展*/
+/*导航栏目*/
+.navbar-itcast {
+    border-bottom: 1px solid #999;
+}
+.navbar-itcast .navbar-brand {
+    color: #777;
+    height: 95px;
+    line-height: 65px;
+}
+.navbar-itcast .navbar-brand:hover,
+.navbar-itcast .navbar-brand:focus {
+    color: #5e5e5e;
+    background-color: transparent;
+}
+.navbar-itcast .navbar-text {
+    color: #777;
+}
+.navbar-itcast .navbar-nav > li > a {
+    color: #777;
+    border-right: 1px solid #999;
+    line-height:65px;
+    font-size: 20px;
+    padding:15px 35px;
+}
+.navbar-itcast .navbar-nav > li:nth-of-type(3) a{
+    border-right: 0;
+}
+.navbar-itcast .navbar-nav > li.dropdown > a{
+    border-right: 0 ;
+}
+.navbar-itcast .navbar-nav > li > a:hover,
+.navbar-itcast .navbar-nav > li > a:focus {
+    color: #44b549;
+    background-color: transparent;
+}
+.navbar-itcast .navbar-nav > .active > a,
+.navbar-itcast .navbar-nav > .active > a:hover,
+.navbar-itcast .navbar-nav > .active > a:focus {
+    color: #555;
+    background-color: #e7e7e7;
+}
+.navbar-itcast .navbar-nav > .disabled > a,
+.navbar-itcast .navbar-nav > .disabled > a:hover,
+.navbar-itcast .navbar-nav > .disabled > a:focus {
+    color: #ccc;
+    background-color: transparent;
+}
+.navbar-itcast .navbar-toggle {
+    border-color: #ddd;
+}
+.navbar-itcast .navbar-toggle:hover,
+.navbar-itcast .navbar-toggle:focus {
+    background-color: #ddd;
+}
+.navbar-itcast .navbar-toggle .icon-bar {
+    background-color: #888;
+}
+.navbar-itcast .navbar-collapse,
+.navbar-itcast .navbar-form {
+    border-color: #e7e7e7;
+}
+.navbar-itcast .navbar-nav > .open > a,
+.navbar-itcast .navbar-nav > .open > a:hover,
+.navbar-itcast .navbar-nav > .open > a:focus {
+    color: #555;
+    background-color: #e7e7e7;/*最后一个展开菜单*/
+}
+.navbar-itcast .navbar-nav .dropdown-menu > li > a:hover,.navbar-itcast .navbar-nav .dropdown-menu > li > a:focus {
+    color: #262626;
+    text-decoration: none;
+    background-color: rgba(68,181,73,0.4);
+}
+@media (max-width: 767px) {
+    .navbar-itcast .navbar-nav .open .dropdown-menu > li > a {
+        color: #777;
+    }
+    .navbar-itcast .navbar-nav .open .dropdown-menu > li > a:hover,
+    .navbar-itcast .navbar-nav .open .dropdown-menu > li > a:focus {
+        color: #333;
+        background-color: rgba(68,181,73,0.4);
+    }
+    .navbar-itcast .navbar-nav .open .dropdown-menu > .active > a,
+    .navbar-itcast .navbar-nav .open .dropdown-menu > .active > a:hover,
+    .navbar-itcast .navbar-nav .open .dropdown-menu > .active > a:focus {
+        color: #555;
+        background-color: rgba(68,181,73,0.4);
+    }
+    .navbar-itcast .navbar-nav .open .dropdown-menu > .disabled > a,
+    .navbar-itcast .navbar-nav .open .dropdown-menu > .disabled > a:hover,
+    .navbar-itcast .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+        color: #ccc;
+        background-color: transparent;
+    }
+}
+.navbar-itcast .navbar-link {
+    color: #777;
+}
+.navbar-itcast .navbar-link:hover {
+    color: #333;
+}
+.navbar-itcast .btn-link {
+    color: #777;
+}
+.navbar-itcast .btn-link:hover,
+.navbar-itcast .btn-link:focus {
+    color: #333;
+}
+.navbar-itcast .btn-link[disabled]:hover,
+fieldset[disabled] .navbar-default .btn-link:hover,
+.navbar-itcast .btn-link[disabled]:focus,
+fieldset[disabled] .navbar-default .btn-link:focus {
+    color: #ccc;
+}
+/*汉堡菜单按钮*/
+.navbar-toggle {
+    position: relative;
+    float: right;
+    padding: 9px 10px;
+    top: 50%;
+    margin-top: 30px;
+    margin-right: 15px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+/*轮播图*/
+/*小圆点*/
+.carousel-indicators {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    z-index: 15;
+    width: 60%;
+    padding-left: 0;
+    margin-left: -30%;
+    text-align: center;
+    list-style: none;
+}
+.carousel-indicators li {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 0 10px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: rgba(255,255,255,0);
+    border: 1px solid #fff;
+    border-radius: 10px;
+}
+
+.carousel-indicators .active {
+    width: 12px;
+    height: 12px;
+    margin: 0 10px;
+    background-color: #edf3e7;
+    border-radius: 15px;
+}
+
